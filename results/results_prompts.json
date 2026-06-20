@@ -1,0 +1,686 @@
+{
+  "gpt-5.4-mini": {
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  },
+  "claude-opus-4-8": {
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  },
+  "claude-sonnet-4-6": {
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  },
+  "gemini-2.5-pro": {
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  },
+  "gpt-5-mini": {
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  },
+  "gpt-5.5": {
+    "cot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "definition": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "fewshot": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "minimal": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "role": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "rubric": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "translate": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    },
+    "usemention": {
+      "accuracy": 1,
+      "macroF1": 1,
+      "mcc": 1,
+      "consistency": 1,
+      "nPairs": 163,
+      "perCategory": {
+        "BENIGN_OVERLAP": 1,
+        "BENIGN_NEUTRAL": 1,
+        "COUNTER": 1,
+        "IMPLICIT": 1,
+        "USE_SLUR": 1
+      }
+    }
+  }
+}

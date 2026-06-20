@@ -1,0 +1,501 @@
+id,text,label,bucket
+X0297,Kal WFH rahega kya?,NOT,NOT
+X0311,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0284,Client call postpone h gaya.,NOT,NOT
+X0195,Client call postpone ho gaya.,NOT,NOT
+X0035,Meeting notes share kar dena.,NOT,NOT
+X0457,ladki ko [FSLUR_05] bol diya.,MGY,STRONG
+X0006,PR me comments resolve kar do.,NOT,NOT
+X0041,Meeting notes share kar dena.,NOT,NOT
+X0494,aurat ko [FSLUR_16] btate rehna बंद kro.,MGY,STRONG
+X0385,Usne aurat ko [FSLUR_08] likh diya aur tag bhi kia.,MGY,STRONG
+X0197,Coffee peene chalte h?,NOT,NOT
+X0229,Code review kal subah rakho.,NOT,NOT
+X0291,Please unit tests add kar do pehle merge.,NOT,NOT
+X0245,Presentation kal tak ready h jayegi.,NOT,NOT
+X0329,Weekend plans bana liye kya?,NOT,NOT
+X0294,Weekend plans bana liye kya?,NOT,NOT
+X0243,Weather aaj badhiya tha.,NOT,NOT
+X0165,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0171,Kal WFH rahega kya?,NOT,NOT
+X0168,Please unit tests add kar do pehle merge.,NOT,NOT
+X0058,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0480,public post me ladki ko [FSLUR_18] likh diya.,MGY,STRONG
+X0388,ladkiyon par [FSLUR_01] type comment aa gaya.,MGY,STRONG
+X0398,ladkiyon ke kapdon par [CTX_05] jaisi baat mat kro.,MGY,CONTEXT
+X0039,Please unit tests add kar do pehle merge.,NOT,NOT
+X0221,Meeting notes share kar dena.,NOT,NOT
+X0442,mahila ko [FSLUR_05] bol diya.,MGY,STRONG
+X0227,Code review kal subah rakho.,NOT,NOT
+X0425,women ko [FSLUR_18] btate rehna बंद kro.,MGY,STRONG
+X0007,Weather aaj badhiya tha.,NOT,NOT
+X0180,Meeting notes share kar dena.,NOT,NOT
+X0235,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0461,ladkiyon ke kapdon par [CTX_11] jaisi baat mat kro.,MGY,CONTEXT
+X0287,PR me comments resolve kar do.,NOT,NOT
+X0418,Tum ladkiyon ko [FSLUR_10] kehke DM kyun kar rahe ho?,MGY,STRONG
+X0144,Coffee peene chalte h?,NOT,NOT
+X0047,"Yaar agenda par focus karo, personal mt ho.",NOT,NOT
+X0015,PR me comments resolve kar do.,NOT,NOT
+X0397,aurat ke kapdon par [CTX_18] jaisi baat mat kro.,MGY,CONTEXT
+X0159,Aaj office traffic bahut tha.,NOT,NOT
+X0449,Tum girl ko [FSLUR_17] kehke reply kyun kar rahe ho?,MGY,STRONG
+X0238,Kal standup kitne baje hai?,NOT,NOT
+X0219,Weather aaj badhiya tha.,NOT,NOT
+X0324,Kal standup kitne baje hai?,NOT,NOT
+X0365,Meeting notes share kar dena.,NOT,NOT
+X0483,Tum mahila ko [FSLUR_18] kehke quote kyun kar rahe ho?,MGY,STRONG
+X0132,Aaj ka match dekhoge?,NOT,NOT
+X0293,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0206,PR me comments resolve kar do.,NOT,NOT
+X0009,Kal standup kitne baje hai?,NOT,NOT
+X0384,ladki ko [FSLUR_05] btate rehna बंद kro.,MGY,STRONG
+X0448,Tum women ko [FSLUR_19] kehke DM kyun kar rahe ho?,MGY,STRONG
+X0023,Please unit tests add kar do pehle merge.,NOT,NOT
+X0122,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0124,Aaj ka mtch dekhoge?,NOT,NOT
+X0396,mahila ko [FSLUR_06] bol diya.,MGY,STRONG
+X0217,Kal WFH rahega kya?,NOT,NOT
+X0356,Weather aaj badhiya tha.,NOT,NOT
+X0312,Weather aaj badhiya tha.,NOT,NOT
+X0410,Tum aurat ko [FSLUR_03] kehke reply kyun kar rahe h?,MGY,STRONG
+X0478,Tum girl ko [FSLUR_09] kehke tag kyun kar rahe ho?,MGY,STRONG
+X0466,women ke liye [CTX_02] type ke lafz mat use kro.,MGY,CONTEXT
+X0280,Coffee peene chalte ho?,NOT,NOT
+X0191,Aaj office traffic bahut tha.,NOT,NOT
+X0003,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0423,DM par girls ko [FSLUR_09] likha hua dekh raha hu.,MGY,STRONG
+X0253,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0208,Please unit tests add kar do pehle merge.,NOT,NOT
+X0408,ladkiyon ke liye [CTX_18] type ke lafz mt use kro.,MGY,CONTEXT
+X0185,Kal standup kitne baje hai?,NOT,NOT
+X0085,Weekend plans bana liye kya?,NOT,NOT
+X0209,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0224,PR me comments resolve kar do.,NOT,NOT
+X0094,Kal standup kitne baje hai?,NOT,NOT
+X0182,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0387,ladki par [FSLUR_13] type comment aa gaya.,MGY,STRONG
+X0240,Kal standup kitne baje hai?,NOT,NOT
+X0052,PR me comments resolve kar do.,NOT,NOT
+X0156,Weekend plans bana liye kya?,NOT,NOT
+X0032,Please unit tests add kar do pehle merge.,NOT,NOT
+X0212,Coffee peene chalte ho?,NOT,NOT
+X0325,"Yaar agenda par focus karo, personal mat h.",NOT,NOT
+X0213,Aaj office traffic bahut tha.,NOT,NOT
+X0440,Usne women ko [FSLUR_04] likh diya aur tag bhi kia.,MGY,STRONG
+X0211,Weekend plans bana liye kya?,NOT,NOT
+X0176,Please unit tests add kar do pehle merge.,NOT,NOT
+X0354,Coffee peene chalte ho?,NOT,NOT
+X0487,Usne girls ko [FSLUR_05] likh diya aur tag bhi kia.,MGY,STRONG
+X0082,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0462,ladkiyon ne shorts pehna to [FSLUR_12] bol diye?,MGY,STRONG
+X0359,Code review kal subah rakho.,NOT,NOT
+X0429,Kisi ladki ko [FSLUR_02] kehna sahi nahi.,MGY,STRONG
+X0413,comment section me women ko [FSLUR_14] likh diya.,MGY,STRONG
+X0040,Coffee peene chalte ho?,NOT,NOT
+X0236,Aaj office traffic bahut tha.,NOT,NOT
+X0193,Code review kal subah rakho.,NOT,NOT
+X0172,Meeting notes share kar dena.,NOT,NOT
+X0414,mahila ko [CTX_03] kehna personal attack hai.,MGY,CONTEXT
+X0187,Kal standup kitne baje hai?,NOT,NOT
+X0352,Code review kal subah rakho.,NOT,NOT
+X0020,Aaj office traffic bahut tha.,NOT,NOT
+X0153,Kal standup kitne baje hai?,NOT,NOT
+X0104,Aaj office traffic bahut tha.,NOT,NOT
+X0126,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0234,Weekend plans bana liye kya?,NOT,NOT
+X0001,Kal standup kitne baje hai?,NOT,NOT
+X0445,aurat ne crop top pehna to [FSLUR_18] bol diye?,MGY,STRONG
+X0255,Kal standup kitne baje he?,NOT,NOT
+X0333,Kal standup kitne baje hai?,NOT,NOT
+X0262,Kal WFH rahega kya?,NOT,NOT
+X0233,Coffee peene chalte ho?,NOT,NOT
+X0459,Tum mahila ko [FSLUR_12] kehke reply kyun kar rahe ho?,MGY,STRONG
+X0436,Kapdon ki wajah se ladki ko [CTX_18] kehna galat.,MGY,CONTEXT
+X0038,Weather aaj badhiya tha.,NOT,NOT
+X0189,Meeting notes share kar dena.,NOT,NOT
+X0160,Code review kal subah rakho.,NOT,NOT
+X0186,Weekend plans bana liye kya?,NOT,NOT
+X0145,Code review kal subah rakho.,NOT,NOT
+X0027,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0033,"Yaar agenda par focus kro, personal mat ho.",NOT,NOT
+X0288,Kal standup kitne baje hai?,NOT,NOT
+X0339,Weekend plans bana liye kya?,NOT,NOT
+X0319,PR me comments resolve kar do.,NOT,NOT
+X0071,Aaj office traffic bahut tha.,NOT,NOT
+X0103,Weather aaj badhiya tha.,NOT,NOT
+X0351,Coffee peene chalte h?,NOT,NOT
+X0484,ladki ko [FSLUR_15] bol diya.,MGY,STRONG
+X0337,Coffee peene chalte ho?,NOT,NOT
+X0115,Client call postpone ho gaya.,NOT,NOT
+X0259,Weather aaj badhiya tha.,NOT,NOT
+X0278,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0018,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0178,Aaj ka mtch dekhoge?,NOT,NOT
+X0498,aurat ko [FSLUR_05] btate rehna बंद kro.,MGY,STRONG
+X0226,Code review kal subah rakho.,NOT,NOT
+X0078,Kal WFH rahega kya?,NOT,NOT
+X0305,Kal standup kitne baje hai?,NOT,NOT
+X0350,Meeting notes share kar dena.,NOT,NOT
+X0437,ladkiyon ko [FSLUR_11] btate rehna बंद kro.,MGY,STRONG
+X0173,Meeting notes share kar dena.,NOT,NOT
+X0490,Usne ladkiyon ko [FSLUR_04] likh diya aur tag bhi kia.,MGY,STRONG
+X0347,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0198,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0057,Kal WFH rahega kya?,NOT,NOT
+X0279,Weather aaj badhiya tha.,NOT,NOT
+X0327,Client call postpone ho gaya.,NOT,NOT
+X0207,Code review kal subah rakh.,NOT,NOT
+X0377,mahila ko [FSLUR_08] btate rehna बंद kro.,MGY,STRONG
+X0170,Aaj ka match dekhoge?,NOT,NOT
+X0441,Usne women ko [FSLUR_19] likh diya aur tag bhi kia.,MGY,STRONG
+X0281,Presentation kal tak ready h jayegi.,NOT,NOT
+X0031,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0148,Kal standup kitne baje hai?,NOT,NOT
+X0500,girls ke liye [CTX_03] type ke lafz mat use kro.,MGY,CONTEXT
+X0269,"Yaar agenda par focus karo, personal mt ho.",NOT,NOT
+X0473,Kisi ladkiyon ko [FSLUR_11] kehna sahi nahi.,MGY,STRONG
+X0362,Kal WFH rahega kya?,NOT,NOT
+X0028,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0062,Aaj office traffic bahut tha.,NOT,NOT
+X0261,Weather aaj badhiya tha.,NOT,NOT
+X0050,Aaj ka match dekhoge?,NOT,NOT
+X0127,Meeting notes share kar dena.,NOT,NOT
+X0022,Kal standup kitne baje h?,NOT,NOT
+X0129,Client call postpone ho gaya.,NOT,NOT
+X0107,PR me comments resolve kar do.,NOT,NOT
+X0036,Meeting notes share kar dena.,NOT,NOT
+X0265,Kal WFH rahega kya?,NOT,NOT
+X0335,PR me comments resolve kar do.,NOT,NOT
+X0181,Weather aaj badhiya tha.,NOT,NOT
+X0250,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0098,Client call postpone ho gaya.,NOT,NOT
+X0286,Aaj office traffic bahut tha.,NOT,NOT
+X0158,Meeting notes share kar dena.,NOT,NOT
+X0407,timeline par women ko [FSLUR_10] likha hua dekh raha hu.,MGY,STRONG
+X0069,Meeting notes share kar dena.,NOT,NOT
+X0374,Aaj ka mtch dekhoge?,NOT,NOT
+X0068,Coffee peene chalte ho?,NOT,NOT
+X0496,mahila ne jeans pehna to [FSLUR_16] bol diye?,MGY,STRONG
+X0123,Weekend plans bana liye kya?,NOT,NOT
+X0024,Aaj ka match dekhoge?,NOT,NOT
+X0427,mahila ke kapdon par [CTX_02] jaisi baat mt karo.,MGY,CONTEXT
+X0179,Weather aaj badhiya tha.,NOT,NOT
+X0375,Please unit tests add kar do pehle merge.,NOT,NOT
+X0299,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0438,Kisi women ko [FSLUR_07] kehna sahi nahi.,MGY,STRONG
+X0454,comment section par ladki ko [FSLUR_16] likha hua dekh raha hu.,MGY,STRONG
+X0013,Kal WFH rahega kya?,NOT,NOT
+X0307,Code review kal subah rakho.,NOT,NOT
+X0267,Client call postpone ho gaya.,NOT,NOT
+X0100,Weekend plans bana liye kya?,NOT,NOT
+X0412,women ko [FSLUR_02] btate rehna बंद kro.,MGY,STRONG
+X0164,PR me comments resolve kar do.,NOT,NOT
+X0306,Code review kal subah rakho.,NOT,NOT
+X0110,Code review kal subah rakho.,NOT,NOT
+X0223,Please unit tests add kar do pehle merge.,NOT,NOT
+X0230,PR me comments resolve kar do.,NOT,NOT
+X0046,Coffee peene chalte h?,NOT,NOT
+X0393,Usne ladkiyon ko [FSLUR_01] likh diya aur tag bhi kia.,MGY,STRONG
+X0402,aurat ke kapdon par [CTX_02] jaisi baat mat karo.,MGY,CONTEXT
+X0434,Usne mahila ko [FSLUR_05] likh diya aur tag bhi kia.,MGY,STRONG
+X0486,Kapdon ki wajah se women ko [CTX_01] kehna galat.,MGY,CONTEXT
+X0205,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0242,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0263,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0080,Weekend plans bana liye kya?,NOT,NOT
+X0380,Kisi girl ko [FSLUR_11] kehna sahi nahi.,MGY,STRONG
+X0008,Aaj ka match dekhoge?,NOT,NOT
+X0201,Weekend plans bana liye kya?,NOT,NOT
+X0150,Code review kal subah rakh.,NOT,NOT
+X0453,mahila ko [FSLUR_08] bol diya.,MGY,STRONG
+X0390,Tum aurat ko [FSLUR_12] kehke tag kyun kar rahe ho?,MGY,STRONG
+X0491,group chat par ladkiyon ko [FSLUR_10] likha hua dekh raha hu.,MGY,STRONG
+X0138,Client call postpone ho gaya.,NOT,NOT
+X0458,Kapdon ki wajah se aurat ko [CTX_02] kehna galat.,MGY,CONTEXT
+X0063,Please unit tests add kar do pehle merge.,NOT,NOT
+X0065,Code review kal subah rakho.,NOT,NOT
+X0260,Aaj office traffic bahut tha.,NOT,NOT
+X0079,Kal WFH rahega kya?,NOT,NOT
+X0228,Kal WFH rahega kya?,NOT,NOT
+X0200,Client call postpone ho gaya.,NOT,NOT
+X0012,Code review kal subah rakho.,NOT,NOT
+X0343,Coffee peene chalte ho?,NOT,NOT
+X0114,Kal WFH rahega kya?,NOT,NOT
+X0070,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0277,Aaj ka match dekhoge?,NOT,NOT
+X0463,Usne ladki ko [FSLUR_07] likh diya aur tag bhi kia.,MGY,STRONG
+X0369,Aaj ka mtch dekhoge?,NOT,NOT
+X0285,Weekend plans bana liye kya?,NOT,NOT
+X0444,women ke liye [CTX_06] type ke lafz mat use kro.,MGY,CONTEXT
+X0290,Aaj ka match dekhoge?,NOT,NOT
+X0147,Meeting notes share kar dena.,NOT,NOT
+X0456,ladki ko [FSLUR_19] btate rehna बंद kro.,MGY,STRONG
+X0416,DM me ladkiyon ko [FSLUR_20] likh diya.,MGY,STRONG
+X0194,Code review kal subah rakho.,NOT,NOT
+X0428,girl ke liye [CTX_10] type ke lafz mat use kro.,MGY,CONTEXT
+X0149,Aaj office traffic bahut tha.,NOT,NOT
+X0289,Aaj office traffic bahut tha.,NOT,NOT
+X0358,Meeting notes share kar dena.,NOT,NOT
+X0271,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0302,Coffee peene chalte ho?,NOT,NOT
+X0196,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0112,Code review kal subah rakho.,NOT,NOT
+X0225,Weekend plans bana liye kya?,NOT,NOT
+X0066,Meeting notes share kar dena.,NOT,NOT
+X0005,Please unit tests add kar do pehle merge.,NOT,NOT
+X0055,Code review kal subah rakho.,NOT,NOT
+X0169,Code review kal subah rakh.,NOT,NOT
+X0204,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0420,women ko [FSLUR_08] btate rehna बंद kro.,MGY,STRONG
+X0334,Weekend plans bana liye kya?,NOT,NOT
+X0341,Weekend plans bana liye kya?,NOT,NOT
+X0367,Kal WFH rahega kya?,NOT,NOT
+X0273,Kal standup kitne baje hai?,NOT,NOT
+X0394,comment section par girls ko [FSLUR_16] likha hua dekh raha hu.,MGY,STRONG
+X0222,Weekend plans bana liye kya?,NOT,NOT
+X0086,Kal standup kitne baje hai?,NOT,NOT
+X0072,PR me comments resolve kar do.,NOT,NOT
+X0465,timeline me kisi ne ladki ko [CTX_06] bol diya.,MGY,CONTEXT
+X0258,Meeting notes share kar dena.,NOT,NOT
+X0092,Coffee peene chalte ho?,NOT,NOT
+X0309,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0468,Kisi women ko [FSLUR_14] kehna sahi nahi.,MGY,STRONG
+X0026,Client call postpone ho gaya.,NOT,NOT
+X0332,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0321,Weekend plans bana liye kya?,NOT,NOT
+X0154,Aaj ka match dekhoge?,NOT,NOT
+X0342,Client call postpone ho gaya.,NOT,NOT
+X0331,Please unit tests add kar do pehle merge.,NOT,NOT
+X0298,Aaj ka match dekhoge?,NOT,NOT
+X0455,ladki ke kapdon par [CTX_05] jaisi baat mat karo.,MGY,CONTEXT
+X0283,Weekend plans bana liye kya?,NOT,NOT
+X0106,Meeting notes share kar dena.,NOT,NOT
+X0497,Kapdon ki wajah se mahila ko [CTX_18] kehna galat.,MGY,CONTEXT
+X0403,Tum women ko [FSLUR_08] kehke DM kyun kar rahe ho?,MGY,STRONG
+X0097,Please unit tests add kar do pehle merge.,NOT,NOT
+X0099,Aaj office traffic bahut tha.,NOT,NOT
+X0419,ladkiyon ko [CTX_07] kehna personal attack he.,MGY,CONTEXT
+X0203,Aaj office traffic bahut tha.,NOT,NOT
+X0163,Coffee peene chalte ho?,NOT,NOT
+X0143,PR me comments resolve kar do.,NOT,NOT
+X0152,Code review kal subah rakho.,NOT,NOT
+X0447,girl par [FSLUR_03] type comment aa gaya.,MGY,STRONG
+X0308,PR me comments resolve kar do.,NOT,NOT
+X0489,ladki ke kapdon par [CTX_13] jaisi baat mat karo.,MGY,CONTEXT
+X0140,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0073,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0056,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0372,Client call postpone ho gaya.,NOT,NOT
+X0477,girl ko [FSLUR_12] bol diya.,MGY,STRONG
+X0004,Weekend plans bana liye kya?,NOT,NOT
+X0470,women ne western kapde pehna to [FSLUR_07] bol diye?,MGY,STRONG
+X0049,Aaj ka match dekhoge?,NOT,NOT
+X0128,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0482,Tum girl ko [FSLUR_01] kehke DM kyun kar rahe ho?,MGY,STRONG
+X0405,girl ko [CTX_14] kehna personal attack hai.,MGY,CONTEXT
+X0157,Weather aaj badhiya tha.,NOT,NOT
+X0400,Usne mahila ko [FSLUR_17] likh diya aur tag bhi kia.,MGY,STRONG
+X0113,Please unit tests add kar do pehle merge.,NOT,NOT
+X0476,comment section me ladkiyon ko [FSLUR_04] likh diya.,MGY,STRONG
+X0431,girl ke liye [CTX_09] type ke lafz mat use kro.,MGY,CONTEXT
+X0383,public post me women ko [FSLUR_18] likh diya.,MGY,STRONG
+X0430,girls ke kapdon par [CTX_08] jaisi baat mat karo.,MGY,CONTEXT
+X0386,aurat ko [CTX_15] kehna personal attack hai.,MGY,CONTEXT
+X0161,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0499,ladkiyon ko [CTX_20] kehna personal attack hai.,MGY,CONTEXT
+X0096,Kal standup kitne baje h?,NOT,NOT
+X0101,Coffee peene chalte ho?,NOT,NOT
+X0083,Coffee peene chalte ho?,NOT,NOT
+X0323,Weekend plans bana liye kya?,NOT,NOT
+X0077,Coffee peene chalte ho?,NOT,NOT
+X0016,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0275,Coffee peene chalte h?,NOT,NOT
+X0376,Kisi aurat ko [FSLUR_08] kehna sahi nahi.,MGY,STRONG
+X0220,Kal WFH rahega kya?,NOT,NOT
+X0264,Client call postpone ho gaya.,NOT,NOT
+X0399,girl ko [CTX_15] kehna personal attack hai.,MGY,CONTEXT
+X0373,Weather aaj badhiya tha.,NOT,NOT
+X0175,Please unit tests add kar do pehle merge.,NOT,NOT
+X0051,Aaj ka match dekhoge?,NOT,NOT
+X0133,PR me comments resolve kar do.,NOT,NOT
+X0481,girl par [FSLUR_04] type comment aa gaya.,MGY,STRONG
+X0452,Usne ladkiyon ko [FSLUR_13] likh diya aur tag bhi kia.,MGY,STRONG
+X0348,Kal standup kitne baje hai?,NOT,NOT
+X0439,Kapdon ki wajah se aurat ko [CTX_10] kehna galat.,MGY,CONTEXT
+X0366,Weekend plans bana liye kya?,NOT,NOT
+X0237,Weather aaj badhiya tha.,NOT,NOT
+X0344,Meeting notes share kar dena.,NOT,NOT
+X0270,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0030,Code review kal subah rakho.,NOT,NOT
+X0364,Code review kal subah rakho.,NOT,NOT
+X0471,Tum girls ko [FSLUR_12] kehke likh kyun kar rahe ho?,MGY,STRONG
+X0192,Please unit tests add kar do pehle merge.,NOT,NOT
+X0081,Aaj ka match dekhoge?,NOT,NOT
+X0382,group chat me kisi ne aurat ko [CTX_12] bol diya.,MGY,CONTEXT
+X0095,PR me comments resolve kar do.,NOT,NOT
+X0357,Coffee peene chalte ho?,NOT,NOT
+X0053,Kal WFH rahega kya?,NOT,NOT
+X0190,PR me comments resolve kar do.,NOT,NOT
+X0349,Weather aaj badhiya tha.,NOT,NOT
+X0130,"Yaar agenda par focus karo, personal mt ho.",NOT,NOT
+X0142,Kal standup kitne baje hai?,NOT,NOT
+X0464,mahila par [FSLUR_13] type comment aa gaya.,MGY,STRONG
+X0252,Please unit tests add kar do pehle merge.,NOT,NOT
+X0044,Aaj ka match dekhoge?,NOT,NOT
+X0048,Aaj ka match dekhoge?,NOT,NOT
+X0404,girl ke kapdon par [CTX_07] jaisi baat mat karo.,MGY,CONTEXT
+X0248,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0378,girls par [FSLUR_09] type comment aa gaya.,MGY,STRONG
+X0218,PR me comments resolve kar do.,NOT,NOT
+X0091,Coffee peene chalte ho?,NOT,NOT
+X0301,Kal standup kitne baje h?,NOT,NOT
+X0247,"Yaar agenda par focus kro, personal mat ho.",NOT,NOT
+X0368,Kal standup kitne baje hai?,NOT,NOT
+X0231,Aaj office traffic bahut tha.,NOT,NOT
+X0076,Aaj office traffic bahut tha.,NOT,NOT
+X0409,Tum mahila ko [FSLUR_06] kehke bol kyun kar rahe ho?,MGY,STRONG
+X0495,Kisi girl ko [FSLUR_20] kehna sahi nahi.,MGY,STRONG
+X0042,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0381,Usne mahila ko [FSLUR_16] likh diya aur tag bhi kia.,MGY,STRONG
+X0395,group chat me kisi ne ladkiyon ko [CTX_11] bol diya.,MGY,CONTEXT
+X0151,Client call postpone ho gaya.,NOT,NOT
+X0276,Kal standup kitne baje hai?,NOT,NOT
+X0087,Aaj ka match dekhoge?,NOT,NOT
+X0472,girls ke liye [CTX_07] type ke lafz mat use kro.,MGY,CONTEXT
+X0184,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0116,Meeting notes share kar dena.,NOT,NOT
+X0361,Client call postpone ho gaya.,NOT,NOT
+X0345,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0232,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0446,mahila ko [FSLUR_01] bol diya.,MGY,STRONG
+X0034,Weather aaj badhiya tha.,NOT,NOT
+X0155,Kal WFH rahega kya?,NOT,NOT
+X0166,Client call postpone ho gaya.,NOT,NOT
+X0010,Meeting notes share kar dena.,NOT,NOT
+X0146,Weekend plans bana liye kya?,NOT,NOT
+X0014,Meeting notes share kar dena.,NOT,NOT
+X0111,Meeting notes share kar dena.,NOT,NOT
+X0417,girl ke liye [CTX_18] type ke lafz mat use kro.,MGY,CONTEXT
+X0492,Tum ladkiyon ko [FSLUR_14] kehke reply kyun kar rahe h?,MGY,STRONG
+X0131,PR me comments resolve kar do.,NOT,NOT
+X0108,Presentation kal tak ready ho jayegi.,NOT,NOT
+X0313,Coffee peene chalte ho?,NOT,NOT
+X0422,Kisi girl ko [FSLUR_15] kehna sahi nahi.,MGY,STRONG
+X0177,Weather aaj badhiya tha.,NOT,NOT
+X0392,girl ko [FSLUR_03] btate rehna बंद kro.,MGY,STRONG
+X0360,Kal standup kitne baje hai?,NOT,NOT
+X0326,Kal standup kitne baje hai?,NOT,NOT
+X0303,Aaj ka match dekhoge?,NOT,NOT
+X0479,Kapdon ki wajah se girl ko [CTX_20] kehna galat.,MGY,CONTEXT
+X0061,"Yaar agenda par focus kro, personal mat ho.",NOT,NOT
+X0102,Weekend plans bana liye kya?,NOT,NOT
+X0282,Kal WFH rahega kya?,NOT,NOT
+X0214,Code review kal subah rakho.,NOT,NOT
+X0340,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0216,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0295,Kal standup kitne baje hai?,NOT,NOT
+X0054,Aaj office traffic bahut tha.,NOT,NOT
+X0460,Usne girl ko [FSLUR_09] likh diya aur tag bhi kia.,MGY,STRONG
+X0330,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0135,Weather aaj badhiya tha.,NOT,NOT
+X0249,Please unit tests add kar do pehle merge.,NOT,NOT
+X0183,Kal standup kitne baje hai?,NOT,NOT
+X0370,Meeting notes share kar dena.,NOT,NOT
+X0025,Weather aaj badhiya tha.,NOT,NOT
+X0310,Aaj office traffic bahut tha.,NOT,NOT
+X0389,ladki ko [CTX_15] kehna personal attack hai.,MGY,CONTEXT
+X0021,Weather aaj badhiya tha.,NOT,NOT
+X0469,Kisi girl ko [FSLUR_08] kehna sahi nahi.,MGY,STRONG
+X0037,Weather aaj badhiya tha.,NOT,NOT
+X0105,Code review kal subah rakho.,NOT,NOT
+X0060,Coffee peene chalte ho?,NOT,NOT
+X0064,Weather aaj badhiya tha.,NOT,NOT
+X0296,Weekend plans bana liye kya?,NOT,NOT
+X0119,Code review kal subah rakho.,NOT,NOT
+X0074,Aaj office traffic bahut tha.,NOT,NOT
+X0292,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0090,Weekend plans bana liye kya?,NOT,NOT
+X0391,aurat ke liye [CTX_20] type ke lafz mat use kro.,MGY,CONTEXT
+X0318,Client call postpone h gaya.,NOT,NOT
+X0118,Coffee peene chalte ho?,NOT,NOT
+X0485,girls ko [CTX_17] kehna personal attack hai.,MGY,CONTEXT
+X0002,Kal WFH rahega kya?,NOT,NOT
+X0174,Meeting notes share kar dena.,NOT,NOT
+X0355,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0314,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0045,Coffee peene chalte ho?,NOT,NOT
+X0274,Aaj ka match dekhoge?,NOT,NOT
+X0011,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0141,Aaj office traffic bahut tha.,NOT,NOT
+X0167,Coffee peene chalte h?,NOT,NOT
+X0162,Coffee peene chalte ho?,NOT,NOT
+X0251,Weekend plans bana liye kya?,NOT,NOT
+X0188,Coffee peene chalte ho?,NOT,NOT
+X0443,women ne shorts pehna to [FSLUR_11] bol diye?,MGY,STRONG
+X0246,"Yaar agenda par focus karo, personal mt ho.",NOT,NOT
+X0371,"Yaar agenda par focus karo, personal mat ho.",NOT,NOT
+X0067,PR me comments resolve kar do.,NOT,NOT
+X0136,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0199,Please unit tests add kar do pehle merge.,NOT,NOT
+X0406,Kisi aurat ko [FSLUR_07] kehna sahi nahi.,MGY,STRONG
+X0336,Aaj office traffic bahut tha.,NOT,NOT
+X0474,Kisi mahila ko [FSLUR_17] kehna sahi nahi.,MGY,STRONG
+X0475,public post me kisi ne ladkiyon ko [CTX_07] bol diya.,MGY,CONTEXT
+X0241,Aaj ka match dekhoge?,NOT,NOT
+X0215,Kal WFH rahega kya?,NOT,NOT
+X0272,Weather aaj badhiya tha.,NOT,NOT
+X0322,Aaj office traffic bahut tha.,NOT,NOT
+X0328,Kal WFH rahega kya?,NOT,NOT
+X0421,group chat me kisi ne girls ko [CTX_06] bol diya.,MGY,CONTEXT
+X0202,Kal standup kitne baje hai?,NOT,NOT
+X0320,Coffee peene chalte ho?,NOT,NOT
+X0353,Aaj ka match dekhoge?,NOT,NOT
+X0266,Coffee peene chalte ho?,NOT,NOT
+X0424,timeline par aurat ko [FSLUR_19] likha hua dekh raha hu.,MGY,STRONG
+X0315,Kal WFH rahega kya?,NOT,NOT
+X0088,Coffee peene chalte ho?,NOT,NOT
+X0338,Kal WFH rahega kya?,NOT,NOT
+X0435,ladki ko [FSLUR_15] bol diya.,MGY,STRONG
+X0120,Please unit tests add kar do pehle merge.,NOT,NOT
+X0401,girls par [FSLUR_01] type comment aa gaya.,MGY,STRONG
+X0134,Please unit tests add kar do pehle merge.,NOT,NOT
+X0433,timeline me ladki ko [FSLUR_13] likh diya.,MGY,STRONG
+X0084,Aaj office traffic bahut tha.,NOT,NOT
+X0244,Weekend plans bana liye kya?,NOT,NOT
+X0075,PR me comments resolve kar do.,NOT,NOT
+X0300,Kal WFH rahega kya?,NOT,NOT
+X0043,Kal standup kitne baje he?,NOT,NOT
+X0467,ladkiyon ke liye [CTX_11] type ke lafz mat use kro.,MGY,CONTEXT
+X0256,Aaj office traffic bahut tha.,NOT,NOT
+X0089,Code review kal subah rakh.,NOT,NOT
+X0432,mahila ne crop top pehna to [FSLUR_07] bol diye?,MGY,STRONG
+X0451,ladkiyon ko [FSLUR_13] bol diya.,MGY,STRONG
+X0379,Kisi aurat ko [FSLUR_11] kehna sahi nahi.,MGY,STRONG
+X0121,Aaj office traffic bahut tha.,NOT,NOT
+X0019,Laptop charge rehna chahiye meeting se pehle.,NOT,NOT
+X0316,Please unit tests add kar do pehle merge.,NOT,NOT
+X0059,Client call postpone ho gaya.,NOT,NOT
+X0411,women ko [FSLUR_12] btate rehna बंद kro.,MGY,STRONG
+X0137,PR me comments resolve kar do.,NOT,NOT
+X0117,Aaj office traffic bahut tha.,NOT,NOT
+X0257,Weather aaj badhiya tha.,NOT,NOT
+X0317,Code review kal subah rakho.,NOT,NOT
+X0210,Aaj ka mtch dekhoge?,NOT,NOT
+X0029,Aaj ka match dekhge?,NOT,NOT
+X0254,Weather aaj badhiya tha.,NOT,NOT
+X0450,Kapdon ki wajah se ladki ko [CTX_11] kehna galat.,MGY,CONTEXT
+X0426,girl ko [FSLUR_01] btate rehna बंद kro.,MGY,STRONG
+X0093,Client call postpone ho gaya.,NOT,NOT
+X0109,Aaj office traffic bahut tha.,NOT,NOT
+X0017,Aaj ka match dekhoge?,NOT,NOT
+X0304,Code review kal subah rakho.,NOT,NOT
+X0346,Weather aaj badhiya tha.,NOT,NOT
+X0363,Aaj ka match dekhoge?,NOT,NOT
+X0488,ladki ne jeans pehna to [FSLUR_16] bol diye?,MGY,STRONG
+X0493,Usne ladki ko [FSLUR_18] likh diya aur tag bhi kia.,MGY,STRONG
+X0268,PR me comments resolve kar do.,NOT,NOT
+X0415,mahila ko [FSLUR_16] bol diya.,MGY,STRONG
+X0125,Weather aaj badhiya tha.,NOT,NOT
+X0139,Kal standup kitne baje hai?,NOT,NOT
+X0239,Kal standup kitne baje hai?,NOT,NOT

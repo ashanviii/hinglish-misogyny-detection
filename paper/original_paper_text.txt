@@ -1,0 +1,660 @@
+arXiv:2403.02121v1 [cs.CL] 4 Mar 2024    Leveraging Weakly Annotated Data for Hate
+                                         Speech Detection in Code-Mixed Hinglish: A
+                                        Feasibility-Driven Transfer Learning Approach
+
+                                                     with Large Language Models
+
+                                        Sargam Yadav1[0000-0001-8115-6741], Abhishek Kaushik2[0000-0002-3329-1807],
+                                                                 and Kevin McDaid3[0000-0002-0695-9082]
+
+                                                     1 Dundalk Institute of Technology, Dundalk, A91 K584, Ireland
+                                                                                 sargam.yadav@dkit.ie
+
+                                                     2 Dundalk Institute of Technology, Dundalk, A91 K584, Ireland
+                                                                              abhishek.kaushik@dkit.ie
+
+                                                     3 Dundalk Institute of Technology, Dundalk, A91 K584, Ireland
+                                                                                 kevin.mcdaid@dkit.ie
+
+                                                Abstract. The advent of Large Language Models (LLMs) has advanced
+                                                the benchmark in various Natural Language Processing (NLP) tasks.
+                                                However, large amounts of labelled training data are required to train
+                                                LLMs. Furthermore, data annotation and training are computationally
+                                                expensive and time-consuming. Zero and few-shot learning have recently
+                                                emerged as viable options for labelling data using large pre-trained mod-
+                                                els. Hate speech detection in mix-code low-resource languages is an active
+                                                problem area where the use of LLMs has proven beneficial. In this study,
+                                                we have compiled a dataset of 100 YouTube comments, and weakly la-
+                                                belled them for coarse and fine-grained misogyny classification in mix-
+                                                code Hinglish. Weak annotation was applied due to the labor-intensive
+                                                annotation process. Zero-shot learning, one-shot learning, and few-shot
+                                                learning and prompting approaches have then been applied to assign
+                                                labels to the comments and compare them to human-assigned labels.
+                                                Out of all the approaches, zero-shot classification using the Bidirec-
+                                                tional Auto-Regressive Transformers (BART) large model and few-shot
+                                                prompting using Generative Pre-trained Transformer- 3 (ChatGPT-3)
+                                                achieve the best results4.
+
+                                                Keywords: Hate speech detection · zero-shot learning · few-shot learn-
+                                                ing · large language models. · Hinglish
+
+                                       1 Introduction
+
+                                       The infiltration of the internet throughout the world has supported the rise in
+                                       popularity of social media platforms. Online platforms have transformed the
+
+                                       4 This paper is accepted in the 16th ISDSI-Global Conference 2023
+                                          https://isdsi2023.iimranchi.ac.in/
+2  S. Yadav et al.
+
+way several daily tasks, such as business operations and communication, are
+performed. Although social media has a list of potential benefits, it also allows
+individuals to spread misinformation, engage in cyberbullying [1], and make
+hateful statements online [2]. These actions can greatly impact the well-being of
+the targets. Machine Learning (ML) and Deep Learning (DL) models have shown
+great potential in performing content moderation [3] [4], even on low-resource
+and code-switched languages. Code-switched languages combine features of two
+languages and are used in multilingual societies. Despite the progress, there is
+still room for significant improvement, to ensure that poorly trained models do
+not restrict free speech [5].
+
+    Zero-shot, one-shot, and few-shot learning are alternate approaches for per-
+forming text classification when labelled data is scarce [6]. Zero-shot learning is
+performed by using a model to classify instances from previously unseen classes
+without any previous training [7]. In one-shot learning, one example from each
+class is provided to the model for training and unseen additional examples are
+used to evaluate the model [8]. In few-shot learning, a few examples are previ-
+ously seen during training for each class and evaluation is performed using unseen
+examples [9]. These approaches can help reduce the number of labelled instances
+used to train a hate speech classifier. This can be beneficial in low-resource and
+code-mixed languages where there is a scarcity of data.
+
+    In this study, we have implemented and evaluated zero-shot, one-shot, and
+few-shot text classification techniques on a weakly annotated dataset consisting
+of misogynistic and non-misogynistic YouTube comments. We wanted to exam-
+ine the benefits of transfer leaning approaches on this small dataset to explore
+alternatives to large curated datasets. The data was collected using YouTube
+API from a video titled `What people think about bringing the Marital rape law
+in India?'5. Details are discussed in Section 4.1. Ethical permission for collecting
+the data has been obtained from the host institute.
+
+    The comments are first divided into 2 classes: misogynistic (MGY) and non-
+misogynistic (NOT). Fig. 1 shows an example from the dataset and its corre-
+sponding class and labels. Then, the comments that were positive for the class
+`MGY' were further labelled into 9 different labels depicting the type of misog-
+yny. The 9 fine-grained labels are `Derailing', `Sexual Harassment and Threats
+of Violence', `Stereotyping', `Minimization and Trivialization', `Religion-based',
+`Whataboutism'. `Shaming', `Moral Policing', and `Victim Blaming'. A particu-
+lar sample from the `MGY' class could belong to more than one label in fine-
+grained classification. Zero-shot and few-shot models are trained and evaluated
+on the dataset. Table 1 gives the count and description of each fine-grained label.
+ChatGPT-3 [10] has also been used to perform few-shot prompting.
+
+    The rest of the article is structured as follows: Section 2 describes the moti-
+vation behind conducting the study, the research hypothesis, and research ques-
+tions. Section 3 discusses previous work in the fields of hate speech detection,
+zero and few-shot learning, aiming to draw insights from it. Section 4 details
+the dataset and experimental procedure used in the study. Section 5 reports
+
+5 https://www.youtube.com/watch?v=UBcOqt17FgI
+                         Title Suppressed Due to Excessive Length      3
+
+Label Name           Label Count Label Description
+
+Derailing            23  Targeting slurs towards women without any broader in-
+
+                         tentions
+
+Sexual Harassment 1      Exertion of physical dominance over or intimidating them
+
+and Threats of Vio-      using threats
+
+lence
+
+Stereotyping         9   Comparing women to narrow standards
+
+Minimization and 11      Downplaying the problem and making it seem insignifi-
+
+Trivialization           cant
+
+Religion based       1   Sexist discrimination or prejudice that arise from reli-
+
+                         gious scriptures
+
+Whataboutism         8   Using rhetorical tactic to deflect criticism
+
+Shaming              4   Inappropriate comments made about women deviating
+
+                         from conservative expectations
+
+Moral Policing       2   enforcing perceived morals regarding factors such as
+
+                         clothing, relationships, etc
+
+Victim Blaming       2   Holding the victim of wrongful act entirely or partially
+
+                         at fault
+
+                Table 1. Multi-label categorization of the dataset
+
+         Fig. 1. Example of a sentence from the dataset belonging to class MGY
+
+the results of the experiment and analysis of the results. Section 6 discusses
+the findings of the study with respect to the research questions and hypothesis.
+In Section 7, the limitations of the study are addressed. Section 8 provides a
+conclusion to the study.
+4  S. Yadav et al.
+
+2 Motivation
+
+Hate speech has become rampant in today's online discourse. This type of tar-
+geted hate can have a detrimental impact on the target, silencing their online
+voice. Artificial intelligence models, such as Bidirectional Encoder Representa-
+tions from Transformers (BERT) [11], Cross-lingual Language Model (XLM-
+RoBERTa) [12], ChatGPT-3, etc., can be trained and evaluated on annotated
+datasets, and have proven to be useful in combating much of the offensive and
+hateful comments online [3] [4] [13]. However, large and complex deep learning
+models require large amounts of data for training. Also, the training process
+is time-consuming and computationally expensive. The annotation of the data
+also requires a lot of human effort [14]. Recent studies have shown that LLMs
+that have been pre-trained on large amounts of data in an unsupervised manner
+inherently store some understanding of the language and can be used to perform
+zero and few-shot classification tasks [15] [7]. This study tests these finding on
+a new Hinglish dataset that consists of fine-grained and coarse-grained classifi-
+cation of misogynistic comments. Hinglish is an informal combination of Hindi
+and English, where Hindi characters are Romanised and intermixed with En-
+glish words [16]. Code-mixed languages present unique challenges due to lack of
+consistent spelling, grammatical structure, and syntax [16].
+
+    The research hypothesis explored in the study is as follows:
+    Hypothesis: Zero-shot, one-shot, and few-shot learning can be reliably used to
+assign labels to mix-code Hinglish YouTube comments for coarse and fine-grained
+misogyny classification.
+    The following research questions explore our research hypothesis:
+
+ 1. How does zero-shot learning perform at the task of labelling YouTube com-
+     ments for coarse and fine-grained misogyny classification in mix-code Hinglish?
+
+ 2. How does one-shot and few-shot learning perform at the task of labelling
+     YouTube comments for coarse and fine-grained misogyny classification in
+     mix-code Hinglish?
+
+3 Literature Review
+
+In this section, we will discuss the recent state-of-the-art approaches for hate
+speech classification, as well as zero-shot, one-shot, and few-shot learning models
+used in NLP.
+
+3.1 Hate Speech Classifiers and Code-mixed Languages
+
+Hate speech detection is an active area of study. Over the past few years, there
+has been an increase in the number of studies tackling hate speech detection
+in English and other languages such as Italian [4], Bengali [17], Hindi [3], mix-
+code Hinglish, and more [18]. Various shared tasks and challenges are hosted
+regularly in several languages to advance research in the area. For example,
+           Title Suppressed Due to Excessive Length             5
+
+Hate Speech and Offensive Content Identification in English and Indo-Aryan
+Languages (HASOC) is conducted in several languages such as English, Hindi,
+Marathi, mix-code Hinglish, and more [3].
+
+    There has been a significant effort in studying Hinglish for various NLP tasks.
+One popular Hinglish dataset is the `YouTube cookery channels' dataset consist-
+ing of Hinglish and English comments [19]. Several studies have been performed
+on this dataset for sentiment classification through different approaches, such
+as TF-IDF vectorizer and logistic regression model [20], multi-layer perceptron
+[21], fine-tuning BERT-based models [22] and utilizing contextual embeddings
+from BERT-based models as features for downstream tasks [23].
+
+3.2 Zero-Shot, One-shot, and Few-Shot Learning
+
+Several recent studies on LLMs have suggested that the final fine-tuning step
+can be removed, and the models can function as few-shot classifiers [24] [15].
+Models such as GPT-3 have unique generation capabilities that can be leveraged
+for specific tasks. For example, Yin et al. [6] define zero-shot classification as a
+textual entailment framework. They propose using pre-trained Natural Language
+Inference (NLI) models, such as BART [25] and RoBERTa as zero-shot classifiers.
+The comment is posed as a premise and a hypothesis is constructed for each
+label. It gives excellent performance in mapping corrupted documents to the
+original. Languages models such as ChatGPT-3 show that few-shot prompting is
+an efficient strategy that can be used for text classification [26]. Table 2 provides
+a distinction between zero-shot, one-shot, and few-shot learning.
+
+Zero-Shot  No labelled training data used
+
+One-Shot One sample comment of each class is used for training
+
+Few-Shot Few samples from each class used for training
+
+Table 2. Distinction between Approaches Used in the Study
+
+    Plaza-del-Arco et al. [7] performed a similar study where they performed zero-
+shot classification on hate speech datasets using the following models: BERT,
+RoBERTa and DeBERTa. The findings suggested that with proper instruction
+fine-tuning, zero-shot classification can compete with the performance of fine-
+tuned models. Studies for multilingual and low-resource data have also been per-
+formed using few-shot learning, and observe that prompting can achieve good
+results [27] [9]. For example, few-shot learning through GPT-3 achieved 85%
+results for hate speech detection [28]. SetFit [29] is a framework based on fine-
+tuning Sentence Transformers and can achieve results that are competitive with
+models that are fine-tuned on large amounts of data. It does this by generating
+rich embeddings from a small sample of data. It can be trained without any
+prompts, is faster, and supports multilingual text. In this study, the English
+version of the Masked and Permuted Pre-training for Language Understanding
+6  S. Yadav et al.
+
+(MPNET) [30] model is used. SetFit first fine-tunes the model on the small num-
+ber of samples, then trains a classification head on the generated embeddings.
+
+    Thus, it becomes apparent that training and deploying complex deep learning
+architectures for hate speech classification is a labour and cost-intensive process.
+The availability of large amounts of labelled data is also a hurdle, especially
+in low-resource and mix-code languages. Zero-shot and few-shot learning can
+provide an opportunity to create toolkits that can work with scarce amounts of
+data.
+
+4 Methodology
+
+In this section, we have discussed the details of the dataset used in the study and
+the experimental setup. Fig 2 displays a flowchart of the experimental method-
+ology.
+
+4.1 Dataset
+
+The dataset used in this study has been extracted from YouTube videos about
+current events in India. The dataset consists of 100 comments in both English
+and code-mixed Hinglish. The comments have been weakly annotated by a sin-
+gle annotator at two levels. Firstly, the comment is classified as either `MGY'
+(misogynistic) or `NOT' (Not misogynistic). There are a total of 75 comments
+belonging to the class `NOT' and 25 comments of the class `MGY'. Secondly,
+instances belonging to the class `MGY' were further labelled into 9 categories,
+where each instance can belong to more than category. The 9 categories were
+inspired by the work of Anzovino et al. [31] and Abburi et al. [32]. They are
+as follows: Derailing, Sexual Harassment and Threats of Violence, Stereotyp-
+ing, Minimization and Trivialization, Religion based, Whataboutism, Shaming,
+Moral Policing, and Victim Blaming. The dataset is severely imbalanced, with
+only 25 positive instances for the `MGY' class. This represents real-world scenar-
+ios, where hateful comments are scarce. Ideally, the dataset should be annotated
+by at least two annotators and inter-annotator agreement should be calculated
+using the kappa coefficient [33]. The dataset is currently in the process of be-
+ing annotated by a second annotator, and kappa coefficient will be calculated
+accordingly.
+
+4.2 Experiment
+In this section, we will describe the experimental methodology used in the study.
+
+Zero-shot Learning In this study, the BART large model is implemented using
+HuggingFace6. The BART large model is trained on the MNLI dataset with 407
+
+6 https://huggingface.co/tasks/zero-shot-classification
+Title Suppressed Due to Excessive Length   7
+
+Fig. 2. Methodology of the proposed study
+8  S. Yadav et al.
+
+million parameters7. It functions as a ready-made zero-shot classifier. According
+to Yin et al. [6], we can consider the problem of zero-shot classification as an
+Natural Language Inference (NLI) problem, where the sentence we want to clas-
+sify is treated as the premise, and the two labels (MGY or NOT) are treated as
+the hypothesis. The model will predict if the premise entails the hypothesis. For
+example, if we want to check if a statement belongs to the `MGY', the hypothesis
+would be constructed as `This text is about misogyny'. The model consists of 12
+encoder and decoder layers and 407 million parameters [29]. Each sequence is
+predicted independently and compared with the corresponding annotated value.
+This procedure is repeated for both binary classification and multi-label classi-
+fication. Fig 3 describes the process of performing zero-shot classification on an
+example sequence.
+
+                                     Fig. 3. Zero-Shot Classification
+
+Few-shot Learning To perform one-shot and few-shot binary classification,
+the English MPNet (`paraphrase-mpnet-base-v2')8 sentence transformer is im-
+plemented through HuggingFace using the SetFit9 approach. For one-shot learn-
+ing, one example of each class was given as training data. For few-shot classifi-
+cation, four samples of each class were used to train the model. The model was
+evaluated on the remaining samples of the dataset.
+
+One-shot prompting through ChatGPT-3 The aim of few-shot promoting
+using ChatGPT-310 in this study is to verify if the model can correctly label
+comments. The model has been accessed using its website. GPT-3 uses the stan-
+dard transformer architecture with only encoder blocks and is trained on 570
+GB of text data [15]. It consists of 96 attention blocks with 96 attention heads
+each. ChatGPT-3 [10] is a variant of GPT-3, which was modified by supervised
+fine-tuning of GPT-3.5, a reinforcement learning-based reward model, and Prox-
+imal Policy Optimization (PPO). ChatGPT-3 is powered by the `gpt-3.5-turbo'
+model.
+ 7 https://huggingface.co/facebook/bart-large-mnli
+ 8 https://huggingface.co/sentence-transformers/paraphrase-mpnet-base-v2
+ 9 https://huggingface.co/blog/setfit
+10 https://chat.openai.com/
+                Title Suppressed Due to Excessive Length              9
+
+5 Results and Analysis
+
+In this section, we will discuss the results of the experiment and analyse the
+findings.
+
+5.1 Zero-Shot, One-Shot, and Few-shot Classification
+
+For measuring the performance of zero-shot binary and multi-label classification,
+the classes and labels assigned by the annotator are treated as the base values
+and the results given by the model are treated as the predicted value.
+
+    Table 3 displays the results of the zero-shot, one-shot, and few-shot mod-
+els for the coarse-grained misogyny classification. For zero-shot classification,
+the models are used with its default parameters and no additional fine-tuning
+is performed. The highest accuracy achieved is 54%, which is not very high.
+Precision, recall, and F1-score are calculated as a macro-average.
+
+Approach Accuracy Macro-F1 Precision Recall MCC
+
+Zero-shot 0.54          0.5245 0.5764 0.6 0.5245
+
+One-shot 0.3367 0.3248 0.5199 0.5117 0.0305
+
+Few-shot 0.5326 0.5198 0.5784 0.6014 0.1784
+
+Table 3. Results of Zero-shot, One-shot, and Few-shot classification
+
+    Fig 4 displays the confusion matrix for the zero-shot, one-shot, and few-shot
+classification models. For the zero-shot classifier, the true positives for the class
+`MGY' is 18, out of 25 total samples. However, for the class `NOT', the number
+of true positives is only 39 out of 75 total samples.
+
+                               Fig. 4. Confusion Matrix for Classifiers
+
+    The results for fine-grained multi-label misogyny classification are as follows:
+precision = 0.2759. recall = 0.2314, and f1 = 0.2222. Precision, recall and F1
+score are weighted by the number of samples. The precision, recall, and F1-scores
+are very low, indicating that zero-shot learning does not perform very well at
+10  S. Yadav et al.
+
+the task of multi-label misogyny classification, at least for a small dataset of
+this size. The model seems to misclassify statements containing words such as
+`rape' and `sex'. For example, the statement `Mr sehbaz Jiyada meretial rapes to
+tumhare me hota h', which translates to `There are more marital rapes in your
+culture.' This statement is incorrectly classified as misogynistic.
+
+    Out of the three approaches for binary classification, zero-shot classification
+provides the highest accuracy of 54%, followed by 51% achieved by few-shot
+learning. Fig 5 depicts the performance of one-shot, few-shot, and zero-shot
+learning models on all metrics.
+
+                            Fig. 5. Bar Graph for Binary Classification
+
+5.2 One-shot Prompting
+ChatGPT-3 is a natural language generation model, which can process up to
+3125 words at a time. It has been used to perform few-shot prompting. In this
+study, the default parameters of the model have not been updated.
+
+    The following two prompts have been tested on the model.
+ 1. Is this statement in mix-code Hinglish misogynistic? "Delhi me randi jada
+
+     hai ish liye rape bhi jada hai". This translates to `There are more prostitutes
+     in Delhi, therefore rape is also more' in English.
+Title Suppressed Due to Excessive Length  11
+
+ 2. Which labels can be applied to the statement out of the following: Derail-
+     ing, Sexual Harassment & Threats of Violence, Stereotype, Minimization
+     & Trivialization, Religion-based, What aboutism, Shaming, Moral Policing,
+     and Victim Blaming?
+
+    For the first prompt, the model correctly labels the statement as misogynistic
+and also provides reasoning for its decision.
+
+    For the second prompt, the model assigns the following labels for the com-
+ment: `Stereotype', `Minimization and Trivialization', and `Victim Blaming',
+which are three of the four labels assigned by the annotator. This suggests that
+one-shot promoting LLMs can be a viable option for data labelling in hate speech
+detection.
+
+6 Discussion
+
+In this section, we will discuss the findings of the study and try to answer the
+research questions.
+
+ 1. How does zero-shot learning perform at the task of labelling YouTube com-
+     ments for coarse and fine-grained misogyny classification in mix-code Hinglish?
+     For binary classification, the zero-shot classifier achieved the highest accu-
+     racy of 54%, which is not very high. For multi-label zero shot classification,
+     the results are again very low. Previous studies indicated that the data la-
+     belling process for hate speech detection is a complex process [14]. Different
+     individuals might have a different concept of what constitutes hate speech,
+     because of their varied socio-economic and cultural backgrounds [34] [35].
+     Also, the best results obtained by hate speech classifiers for low-resource
+     and mix-code languages remain low, especially for fine grained classifica-
+     tion [3] [13]. Therefore, a model that is not pre-trained on domain-specific
+     data may have more difficulty in performing classification. Furthermore, the
+     base classes of the comments have only been assigned by only one annotator
+     and may contain some bias. The dataset will be additionally annotated by
+     another annotator in future.
+
+ 2. How does one-shot and few-shot learning perform at the task of labelling
+     YouTube comments for coarse and fine-grained misogyny classification in
+     mix-code Hinglish? One-shot and few-shot misogyny classification was per-
+     formed in this study using sentence transformers. Out of the two, few-shot
+     classification achieves the higher scores on all the metrics. Macro-F1 score of
+     the one-shot approach was 0.3571. which is significantly lower than 0.5108
+     for few-shot classification. The one-shot promoting results obtained through
+     ChatGPT-3 are promising. Through the careful fine-tuning of prompts, the
+     model correctly predicted whether the statement was misogynistic or not,
+     and also predicted most of the fine-grained labels. This aligns with the find-
+     ings of previous studies [28] [7], which have concluded that LLMs perform
+     well at the task of few-shot learning.
+12  S. Yadav et al.
+
+    Based on the findings of the study, one-shot prompting performs well on text
+labelling tasks. Out of zero-shot, one-shot, and few-shot classification, zero-shot
+performs the best. The results were not very good, but the study provides us
+with some directive about the future scope of using LLMs for data annotation for
+hate speech detection. Although the size of the dataset is very small, we received
+some indication that transfer learning can be beneficial in data annotation.
+
+7 Limitations
+
+There a several limitations to the proposed study. Firstly, an LLM trained specif-
+ically trained on Hinglish has not been used to perform classification. Also, the
+labels used as the base value for comparison have only been weakly annotated by
+a single person, and they may have labelled the dataset according to their biases
+and worldview. The dataset is also small, consisting of only 100 comments. This
+study only examines 3 language models for zero and few-shot classification with
+their default parameters and does not provide any comparison with benchmarks.
+
+8 Conclusion and Future Work
+
+The field of hate speech detection requires innovation to be able to properly
+monitor offensive and hateful content. LLMs have been shown to learn a lot of
+information during the pre-training process and can be used for transfer learn-
+ing. In this study, zero-shot, one-shot, and few-shot learning were used to label
+data for a weakly annotated dataset for misogyny detection. The results sug-
+gest that out of all the techniques, zero-shot learning, and one-shot prompting
+techniques perform the best, implying that transfer learning can prove useful for
+data annotation. However, the empirical results for the zero-shot classification
+only reached 54%. This could be accounted to the complexity of hate speech,
+biased labelling from a single annotator, and size of the dataset. Future work
+should focus on different approaches for zero-shot and few-shot techniques on a
+larger dataset to confirm our hypothesis. Also, rephrasing of the hypothesis for
+inference could be done to improve classification. Multilingual LLMs will also be
+explored for misogyny classification.
+
+References
+
+ 1. Moreno, M.A., Gower, A.D., Brittain, H., Vaillancourt, T.: Applying natural lan-
+     guage processing to evaluate news media coverage of bullying and cyberbullying.
+     Prevention science 20(8), 1274­1283 (2019)
+
+ 2. Kumar, R., Ojha, A.K., Malmasi, S., Zampieri, M.: Benchmarking aggression iden-
+     tification in social media. In: Proceedings of the first workshop on trolling, aggres-
+     sion and cyberbullying (TRAC-2018). pp. 1­11 (2018)
+
+ 3. Mandl, T., Modha, S., Kumar M, A., Chakravarthi, B.R.: Overview of the hasoc
+     track at fire 2020: Hate speech and offensive language identification in tamil, malay-
+     alam, hindi, english and german. In: Forum for information retrieval evaluation.
+     pp. 29­32 (2020)
+                            Title Suppressed Due to Excessive Length        13
+
+4. Fersini, E., Nozza, D., Rosso, P.: Ami@ evalita2020: Automatic misogyny identifi-
+
+cation. In: EVALITA (2020)
+
+5. Yadav, S., Kaushik, A., Sharma, S.: Comprehensive analysis of the artificial intel-
+
+ligence approaches for detecting misogynistic mixed-code online content in south
+
+asian countries: A review. Cyberfeminism and Gender Violence in Social Media
+
+pp. 350­368 (2023)
+
+6. Yin, W., Hay, J., Roth, D.: Benchmarking zero-shot text classification: Datasets,
+
+evaluation and entailment approach. arXiv preprint arXiv:1909.00161 (2019)
+
+7. Del Arco, F.M.P., Nozza, D., Hovy, D.: Respectful or toxic? using zero-shot learning
+
+with language models to detect hate speech. In: The 7th Workshop on Online Abuse
+
+and Harms (WOAH). pp. 60­68 (2023)
+
+8. Yan, L., Zheng, Y., Cao, J.: Few-shot learning for short text classification. Multi-
+
+media Tools and Applications 77, 29799­29810 (2018)
+
+9. Lin, X.V., Mihaylov, T., Artetxe, M., Wang, T., Chen, S., Simig, D., Ott, M.,
+
+Goyal, N., Bhosale, S., Du, J., et al.: Few-shot learning with multilingual generative
+
+language models. In: Proceedings of the 2022 Conference on Empirical Methods in
+
+Natural Language Processing. pp. 9019­9052 (2022)
+
+10. Yashu Gupta: Gchat gpt and gpt 3 detailed architecture
+
+study-deep  nlp             horse.      https://medium.com/nerd-for-tech/
+
+gpt3-and-chat-gpt-detailed-architecture-study-deep-nlp-horse-db3af9de8a5d,
+
+accessed: 2023-08-04
+
+11. Devlin, J., Chang, M.W., Lee, K., Toutanova, K.: Bert: Pre-training of deep bidirec-
+
+tional transformers for language understanding. arXiv preprint arXiv:1810.04805
+
+(2018)
+
+12. Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzma´n,
+
+F., Grave, E., Ott, M., Zettlemoyer, L., Stoyanov, V.: Unsupervised cross-lingual
+
+representation learning at scale. arXiv preprint arXiv:1911.02116 (2019)
+
+13. Fersini, E., Rosso, P., Anzovino, M.: Overview of the task on automatic misogyny
+
+identification at ibereval 2018. Ibereval@ sepln 2150, 214­228 (2018)
+
+14. Basile, V., Bosco, C., Fersini, E., Nozza, D., Patti, V., Pardo, F.M.R., Rosso,
+
+P., Sanguinetti, M.: Semeval-2019 task 5: Multilingual detection of hate speech
+
+against immigrants and women in twitter. In: Proceedings of the 13th international
+
+workshop on semantic evaluation. pp. 54­63 (2019)
+
+15. Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.D., Dhariwal, P., Nee-
+
+lakantan, A., Shyam, P., Sastry, G., Askell, A., et al.: Language models are few-shot
+
+learners. Advances in neural information processing systems 33, 1877­1901 (2020)
+
+16. Mathur, P., Sawhney, R., Ayyar, M., Shah, R.: Did you offend me? classification
+
+of offensive tweets in hinglish language. In: Proceedings of the 2nd Workshop on
+
+Abusive Language Online (ALW2). pp. 138­148 (2018)
+
+17. Kumar, R., Ojha, A.K., Malmasi, S., Zampieri, M.: Evaluating aggression identifi-
+
+cation in social media. In: Proceedings of the second workshop on trolling, aggres-
+
+sion and cyberbullying. pp. 1­5 (2020)
+
+18. Satapara, S., Modha, S., Mandl, T., Madhu, H., Majumder, P.: Overview of the
+
+hasoc subtrack at fire 2021: Conversational hate speech detection in code-mixed
+
+language. Working Notes of FIRE (2021)
+
+19. Kaushik, A., Kaur, G.: Youtube cookery channels viewers comments in
+
+Hinglish (May 2019). https://doi.org/10.5281/zenodo.2841848, https://doi.org/
+
+10.5281/zenodo.2841848
+
+20. Kaur, G., Kaushik, A., Sharma, S.: Cooking is creating emotion: A study on
+
+hinglish sentiments of youtube cookery channels using semi-supervised approach.
+
+Big Data and Cognitive Computing 3(3), 37 (2019)
+14  S. Yadav et al.
+
+21. Donthula, S.K., Kaushik, A.: Man is what he eats: A research on hinglish senti-
+     ments of youtube cookery channels using deep learning. International Journal of
+     Recent Technology and Engineering (IJRTE) 8(2S11), 930­937 (2019)
+
+22. Yadav, S., Kaushik, A., Sharma, S.: Cooking well, with love, is an art: Transformers
+     on youtube hinglish data. In: 2021 International Conference on Computational
+     Performance Evaluation (ComPE). pp. 836­841. IEEE (2021)
+
+23. Yadav, S., Kaushik, A.: Contextualized embeddings from transformers for senti-
+     ment analysis on code-mixed hinglish data: An expanded approach with explain-
+     able artificial intelligence. In: International Conference on Speech and Language
+     Technologies for Low-resource Languages. pp. 99­119. Springer (2022)
+
+24. Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al.: Language
+     models are unsupervised multitask learners. OpenAI blog 1(8), 9 (2019)
+
+25. Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O.,
+     Stoyanov, V., Zettlemoyer, L.: Bart: Denoising sequence-to-sequence pre-training
+     for natural language generation, translation, and comprehension. arXiv preprint
+     arXiv:1910.13461 (2019)
+
+26. Beltagy, I., Cohan, A., Logan IV, R., Min, S., Singh, S.: Zero-and few-shot nlp
+     with pretrained language models. In: Proceedings of the 60th Annual Meeting
+     of the Association for Computational Linguistics: Tutorial Abstracts. pp. 32­37
+     (2022)
+
+27. Mozafari, M., Farahbakhsh, R., Crespi, N.: Cross-lingual few-shot hate speech and
+     offensive language detection using meta learning. IEEE Access 10, 14880­14896
+     (2022)
+
+28. Chiu, K.L., Collins, A., Alexander, R.: Detecting hate speech with gpt-3. arXiv
+     preprint arXiv:2103.12407 (2021)
+
+29. Tunstall, L., Reimers, N., Jo, U.E.S., Bates, L., Korat, D., Wasserblat, M., Pereg,
+     O.: Efficient few-shot learning without prompts. arXiv preprint arXiv:2209.11055
+     (2022)
+
+30. Song, K., Tan, X., Qin, T., Lu, J., Liu, T.Y.: Mpnet: Masked and permuted pre-
+     training for language understanding. Advances in Neural Information Processing
+     Systems 33, 16857­16867 (2020)
+
+31. Anzovino, M., Fersini, E., Rosso, P.: Automatic identification and classification of
+     misogynistic language on twitter. In: Natural Language Processing and Information
+     Systems: 23rd International Conference on Applications of Natural Language to
+     Information Systems, NLDB 2018, Paris, France, June 13-15, 2018, Proceedings
+     23. pp. 57­64. Springer (2018)
+
+32. Abburi, H., Parikh, P., Chhaya, N., Varma, V.: Fine-grained multi-label sexism
+     classification using a semi-supervised multi-level neural approach. Data Science
+     and Engineering 6(4), 359­379 (2021)
+
+33. Kraemer, H.C.: Kappa coefficient. Wiley StatsRef: statistics reference online pp. 1­
+     4 (2014)
+
+34. Waseem, Z.: Are you a racist or am i seeing things? annotator influence on hate
+     speech detection on twitter. In: Proceedings of the first workshop on NLP and
+     computational social science. pp. 138­142 (2016)
+
+35. Schmidt, A., Wiegand, M.: A survey on hate speech detection using natural lan-
+     guage processing. In: Proceedings of the fifth international workshop on natural
+     language processing for social media. pp. 1­10 (2017)
+

@@ -1,0 +1,16 @@
+{
+  "model": "claude-opus-4-8 (author-model, in-context, author-exposed)",
+  "protocol": "zero-shot, use-mention-aware prompt, per-frame decision, blind to gold at decision time",
+  "n": 416,
+  "accuracy": 1,
+  "macroF1": 1,
+  "mcc": 1,
+  "consistency": 1,
+  "nPairs": 163,
+  "borderlineFramesFlagged": [
+    "IMPLICIT:bahar (restricting womens movement vs safety-concern reading)",
+    "USE_SLUR:5 (reports slur as reaction to clothing; no condemnation -> use)",
+    "USE_SLUR:6 (passive report of slur; closest to a bare mention)"
+  ],
+  "caveat": "OPTIMISTIC CEILING, not a naive zero-shot estimate; author-model had design exposure; clean templated items."
+}

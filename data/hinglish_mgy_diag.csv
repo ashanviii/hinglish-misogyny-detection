@@ -1,0 +1,417 @@
+id,text,label,category,frame_id,pair_id,subject,token
+D0168,aurat ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P84,aurat,
+D0413,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0400,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0058,[FSLUR_13] jaise shabd ladki ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P29,ladki,[FSLUR_13]
+D0146,larki ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P73,larki,
+D0402,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0163,woman ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P82,woman,
+D0349,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0294,ladkiyon ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P147,ladkiyon,
+D0258,girl ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P129,girl,
+D0338,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0207,"larki ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P104,larki,
+D0017,larki ko [FSLUR_06] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P9,larki,[FSLUR_06]
+D0092,mahila ko [FSLUR_08] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P46,mahila,[FSLUR_08]
+D0117,aurat ko public post me [FSLUR_05] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P59,aurat,[FSLUR_05]
+D0386,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0124,"please ladki ko [FSLUR_19] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P62,ladki,[FSLUR_19]
+D0405,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0143,group me woman ko [FSLUR_11] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P72,woman,[FSLUR_11]
+D0300,us ladki ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P150,us ladki,
+D0269,woman dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P135,woman,
+D0151,us aurat ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P76,us aurat,
+D0302,women raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P151,women,
+D0399,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0134,ladkiyon ko [FSLUR_14] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P67,ladkiyon,[FSLUR_14]
+D0195,"woman ko shorts nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P98,woman,
+D0083,online sab aurat ko [FSLUR_05] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P42,aurat,[FSLUR_05]
+D0337,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0327,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0098,aurat ko [FSLUR_07] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P49,aurat,[FSLUR_07]
+D0169,aurat ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P85,aurat,
+D0104,us ladki ko [FSLUR_05] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P52,us ladki,[FSLUR_05]
+D0328,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0062,[FSLUR_06] jaise shabd girl ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P31,girl,[FSLUR_06]
+D0396,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0037,comment section me women ko [FSLUR_19] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P19,women,[FSLUR_19]
+D0393,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0325,larki ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P163,larki,
+D0086,report karo agar koi woman ko [FSLUR_06] bole.,NOT,COUNTER,COUNTER:4,P43,woman,[FSLUR_06]
+D0355,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0066,[FSLUR_16] jaise shabd ladkiyon ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P33,ladkiyon,[FSLUR_16]
+D0006,mahila ko [FSLUR_04] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P3,mahila,[FSLUR_04]
+D0223,woman ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P112,woman,
+D0286,ladkiyon ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P143,ladkiyon,
+D0076,report karo agar koi woman ko [FSLUR_10] bole.,NOT,COUNTER,COUNTER:4,P38,woman,[FSLUR_10]
+D0274,women ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P137,women,
+D0392,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0404,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0261,girl dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P131,girl,
+D0139,group me women ko [FSLUR_20] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P70,women,[FSLUR_20]
+D0094,us aurat ko [FSLUR_10] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P47,us aurat,[FSLUR_10]
+D0340,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0390,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0226,"woman ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P113,woman,
+D0380,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0085,online sab woman ko [FSLUR_06] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P43,woman,[FSLUR_06]
+D0312,aurat raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P156,aurat,
+D0179,"mahila ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P90,mahila,
+D0237,girl ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P119,girl,
+D0281,"girl emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P141,girl,
+D0155,ladkiyon ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P78,ladkiyon,
+D0091,mahila ne skirt pehna to log [FSLUR_08] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P46,mahila,[FSLUR_08]
+D0371,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0384,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0234,"women ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P117,women,
+D0113,ladki ko public post me [FSLUR_07] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P57,ladki,[FSLUR_07]
+D0225,woman ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P113,woman,
+D0370,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0126,"please mahila ko [FSLUR_14] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P63,mahila,[FSLUR_14]
+D0054,larki ko [FSLUR_13] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P27,larki,[FSLUR_13]
+D0112,"please us ladki ko [FSLUR_06] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P56,us ladki,[FSLUR_06]
+D0190,"ladkiyon ne aaj jeans liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P95,ladkiyon,
+D0120,"please woman ko [FSLUR_05] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P60,woman,[FSLUR_05]
+D0125,mahila ko public post me [FSLUR_14] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P63,mahila,[FSLUR_14]
+D0362,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0401,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0087,online sab mahila ko [FSLUR_07] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P44,mahila,[FSLUR_07]
+D0317,girl ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P159,girl,
+D0031,aurat ko [FSLUR_16] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P16,aurat,[FSLUR_16]
+D0412,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0305,us ladki ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P153,us ladki,
+D0041,comment section me ladki ko [FSLUR_06] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P21,ladki,[FSLUR_06]
+D0023,ladkiyon ko [FSLUR_15] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P12,ladkiyon,[FSLUR_15]
+D0229,larki ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P115,larki,
+D0342,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0323,mahila ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P162,mahila,
+D0221,"larki ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P111,larki,
+D0231,mahila ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P116,mahila,
+D0159,mahila ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P80,mahila,
+D0053,comment section me larki ko [FSLUR_13] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P27,larki,[FSLUR_13]
+D0141,group me mahila ko [FSLUR_11] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P71,mahila,[FSLUR_11]
+D0153,ladki ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P77,ladki,
+D0204,ladkiyon ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P102,ladkiyon,
+D0154,ladki ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P77,ladki,
+D0250,mahila ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P125,mahila,
+D0022,kisi woman ko [FSLUR_01] mat bolo.,NOT,COUNTER,COUNTER:1,P11,woman,[FSLUR_01]
+D0028,kisi ladkiyon ko [FSLUR_16] mat bolo.,NOT,COUNTER,COUNTER:1,P14,ladkiyon,[FSLUR_16]
+D0248,"ladkiyon ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P124,ladkiyon,
+D0326,larki raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P163,larki,
+D0131,group me us aurat ko [FSLUR_13] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P66,us aurat,[FSLUR_13]
+D0047,comment section me ladkiyon ko [FSLUR_19] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P24,ladkiyon,[FSLUR_19]
+D0095,girl ne western kapde pehna to log [FSLUR_17] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P48,girl,[FSLUR_17]
+D0224,"woman ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P112,woman,
+D0245,ladki ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P123,ladki,
+D0072,[FSLUR_17] jaise shabd larki ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P36,larki,[FSLUR_17]
+D0102,woman ko [FSLUR_15] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P51,woman,[FSLUR_15]
+D0383,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0180,"mahila ne aaj jeans liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P90,mahila,
+D0118,"please aurat ko [FSLUR_05] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P59,aurat,[FSLUR_05]
+D0239,women ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P120,women,
+D0149,mahila ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P75,mahila,
+D0388,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0150,mahila ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P75,mahila,
+D0071,larki ko [FSLUR_17] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P36,larki,[FSLUR_17]
+D0339,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0185,"mahila ko dress nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P93,mahila,
+D0334,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0084,report karo agar koi aurat ko [FSLUR_05] bole.,NOT,COUNTER,COUNTER:4,P42,aurat,[FSLUR_05]
+D0142,mahila ko [FSLUR_11] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P71,mahila,[FSLUR_11]
+D0264,ladkiyon ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P132,ladkiyon,
+D0308,woman raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P154,woman,
+D0321,aurat ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P161,aurat,
+D0111,us ladki ko public post me [FSLUR_06] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P56,us ladki,[FSLUR_06]
+D0307,woman ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P154,woman,
+D0377,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0034,kisi ladki ko [FSLUR_12] mat bolo.,NOT,COUNTER,COUNTER:1,P17,ladki,[FSLUR_12]
+D0187,"us ladki ko jeans nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P94,us ladki,
+D0172,"us aurat ne aaj crop top liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P86,us aurat,
+D0016,us ladki ko [FSLUR_12] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P8,us ladki,[FSLUR_12]
+D0278,women ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P139,women,
+D0279,"woman emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P140,woman,
+D0014,ladki ko [FSLUR_20] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P7,ladki,[FSLUR_20]
+D0069,aurat ko [FSLUR_05] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P35,aurat,[FSLUR_05]
+D0038,women ko [FSLUR_19] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P19,women,[FSLUR_19]
+D0216,ladkiyon ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P108,ladkiyon,
+D0116,"please woman ko [FSLUR_05] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P58,woman,[FSLUR_05]
+D0359,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0002,mahila ko [FSLUR_01] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P1,mahila,[FSLUR_01]
+D0099,us ladki ne western kapde pehna to log [FSLUR_20] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P50,us ladki,[FSLUR_20]
+D0161,mahila ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P81,mahila,
+D0035,us ladki ko [FSLUR_17] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P18,us ladki,[FSLUR_17]
+D0409,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0199,"ladki ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P100,ladki,
+D0374,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0156,ladkiyon ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P78,ladkiyon,
+D0048,ladkiyon ko [FSLUR_19] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P24,ladkiyon,[FSLUR_19]
+D0166,mahila ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P83,mahila,
+D0376,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0293,"ladkiyon emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P147,ladkiyon,
+D0051,comment section me aurat ko [FSLUR_13] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P26,aurat,[FSLUR_13]
+D0360,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0129,group me women ko [FSLUR_15] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P65,women,[FSLUR_15]
+D0103,us ladki ne dress pehna to log [FSLUR_05] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P52,us ladki,[FSLUR_05]
+D0145,larki ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P73,larki,
+D0008,ladkiyon ko [FSLUR_12] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P4,ladkiyon,[FSLUR_12]
+D0298,women ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P149,women,
+D0032,kisi aurat ko [FSLUR_16] mat bolo.,NOT,COUNTER,COUNTER:1,P16,aurat,[FSLUR_16]
+D0158,woman ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P79,woman,
+D0372,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0283,"ladkiyon emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P142,ladkiyon,
+D0208,larki ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P104,larki,
+D0394,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0363,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0303,ladki ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P152,ladki,
+D0206,woman ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P103,woman,
+D0178,"mahila ne aaj western kapde liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P89,mahila,
+D0416,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0344,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0238,"girl ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P119,girl,
+D0282,girl ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P141,girl,
+D0330,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0122,"please us aurat ko [FSLUR_20] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P61,us aurat,[FSLUR_20]
+D0009,ladki ko [FSLUR_17] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P5,ladki,[FSLUR_17]
+D0257,girl dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P129,girl,
+D0252,ladki ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P126,ladki,
+D0165,mahila ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P83,mahila,
+D0236,"woman ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P118,woman,
+D0188,"us ladki ne aaj crop top liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P94,us ladki,
+D0197,"ladki ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P99,ladki,
+D0110,"please ladkiyon ko [FSLUR_13] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P55,ladkiyon,[FSLUR_13]
+D0219,"us ladki ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P110,us ladki,
+D0005,mahila ko [FSLUR_04] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P3,mahila,[FSLUR_04]
+D0389,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0211,"women ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P106,women,
+D0296,aurat ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P148,aurat,
+D0249,mahila dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P125,mahila,
+D0319,woman ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P160,woman,
+D0045,comment section me girl ko [FSLUR_19] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P23,girl,[FSLUR_19]
+D0378,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0254,us aurat ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P127,us aurat,
+D0369,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0354,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0001,mahila ko [FSLUR_01] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P1,mahila,[FSLUR_01]
+D0335,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0042,ladki ko [FSLUR_06] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P21,ladki,[FSLUR_06]
+D0346,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0322,aurat raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P161,aurat,
+D0057,ladki ko [FSLUR_13] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P29,ladki,[FSLUR_13]
+D0218,girl ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P109,girl,
+D0290,aurat ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P145,aurat,
+D0241,us ladki ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P121,us ladki,
+D0277,"women emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P139,women,
+D0182,"girl ne aaj skirt liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P91,girl,
+D0295,"aurat emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P148,aurat,
+D0406,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0088,report karo agar koi mahila ko [FSLUR_07] bole.,NOT,COUNTER,COUNTER:4,P44,mahila,[FSLUR_07]
+D0395,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0148,ladkiyon ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P74,ladkiyon,
+D0247,ladkiyon ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P124,ladkiyon,
+D0127,group me girl ko [FSLUR_19] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P64,girl,[FSLUR_19]
+D0160,mahila ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P80,mahila,
+D0260,women ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P130,women,
+D0336,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0332,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0244,"ladki ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P122,ladki,
+D0063,girl ko [FSLUR_18] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P32,girl,[FSLUR_18]
+D0029,larki ko [FSLUR_18] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P15,larki,[FSLUR_18]
+D0030,kisi larki ko [FSLUR_18] mat bolo.,NOT,COUNTER,COUNTER:1,P15,larki,[FSLUR_18]
+D0316,us aurat raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P158,us aurat,
+D0081,online sab ladkiyon ko [FSLUR_19] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P41,ladkiyon,[FSLUR_19]
+D0375,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0193,"ladki ko jeans nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P97,ladki,
+D0415,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0073,online sab woman ko [FSLUR_17] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P37,woman,[FSLUR_17]
+D0350,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0246,"ladki ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P123,ladki,
+D0059,ladki ko [FSLUR_08] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P30,ladki,[FSLUR_08]
+D0175,"us aurat ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P88,us aurat,
+D0320,woman raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P160,woman,
+D0018,larki ko [FSLUR_06] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P9,larki,[FSLUR_06]
+D0135,group me mahila ko [FSLUR_06] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P68,mahila,[FSLUR_06]
+D0171,"us aurat ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P86,us aurat,
+D0082,report karo agar koi ladkiyon ko [FSLUR_19] bole.,NOT,COUNTER,COUNTER:4,P41,ladkiyon,[FSLUR_19]
+D0270,woman ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P135,woman,
+D0036,kisi us ladki ko [FSLUR_17] mat bolo.,NOT,COUNTER,COUNTER:1,P18,us ladki,[FSLUR_17]
+D0243,ladki ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P122,ladki,
+D0215,"ladkiyon ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P108,ladkiyon,
+D0107,aurat ne shorts pehna to log [FSLUR_07] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P54,aurat,[FSLUR_07]
+D0230,"larki ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P115,larki,
+D0191,"woman ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P96,woman,
+D0228,"mahila ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P114,mahila,
+D0123,ladki ko public post me [FSLUR_19] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P62,ladki,[FSLUR_19]
+D0192,"woman ne aaj skirt liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P96,woman,
+D0273,women dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P137,women,
+D0079,online sab us ladki ko [FSLUR_11] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P40,us ladki,[FSLUR_11]
+D0010,ladki ko [FSLUR_17] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P5,ladki,[FSLUR_17]
+D0284,ladkiyon ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P142,ladkiyon,
+D0075,online sab woman ko [FSLUR_10] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P38,woman,[FSLUR_10]
+D0213,"ladkiyon ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P107,ladkiyon,
+D0265,aurat dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P133,aurat,
+D0133,group me ladkiyon ko [FSLUR_14] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P67,ladkiyon,[FSLUR_14]
+D0089,online sab women ko [FSLUR_09] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P45,women,[FSLUR_09]
+D0232,"mahila ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P116,mahila,
+D0109,ladkiyon ko public post me [FSLUR_13] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P55,ladkiyon,[FSLUR_13]
+D0276,us ladki ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P138,us ladki,
+D0313,ladkiyon ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P157,ladkiyon,
+D0271,larki dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P136,larki,
+D0147,ladkiyon ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P74,ladkiyon,
+D0078,report karo agar koi aurat ko [FSLUR_10] bole.,NOT,COUNTER,COUNTER:4,P39,aurat,[FSLUR_10]
+D0027,ladkiyon ko [FSLUR_16] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P14,ladkiyon,[FSLUR_16]
+D0070,[FSLUR_05] jaise shabd aurat ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P35,aurat,[FSLUR_05]
+D0019,woman ko [FSLUR_09] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P10,woman,[FSLUR_09]
+D0115,woman ko public post me [FSLUR_05] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P58,woman,[FSLUR_05]
+D0024,kisi ladkiyon ko [FSLUR_15] mat bolo.,NOT,COUNTER,COUNTER:1,P12,ladkiyon,[FSLUR_15]
+D0074,report karo agar koi woman ko [FSLUR_17] bole.,NOT,COUNTER,COUNTER:4,P37,woman,[FSLUR_17]
+D0040,ladki ko [FSLUR_03] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P20,ladki,[FSLUR_03]
+D0398,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0056,[FSLUR_19] jaise shabd larki ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P28,larki,[FSLUR_19]
+D0096,girl ko [FSLUR_17] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P48,girl,[FSLUR_17]
+D0379,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0306,us ladki raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P153,us ladki,
+D0176,"us aurat ne aaj dress liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P88,us aurat,
+D0366,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0152,us aurat ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P76,us aurat,
+D0280,woman ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P140,woman,
+D0052,aurat ko [FSLUR_13] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P26,aurat,[FSLUR_13]
+D0222,larki ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P111,larki,
+D0311,aurat ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P156,aurat,
+D0202,ladkiyon ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P101,ladkiyon,
+D0090,report karo agar koi women ko [FSLUR_09] bole.,NOT,COUNTER,COUNTER:4,P45,women,[FSLUR_09]
+D0060,[FSLUR_08] jaise shabd ladki ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P30,ladki,[FSLUR_08]
+D0263,ladkiyon dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P132,ladkiyon,
+D0353,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0186,"mahila ne aaj crop top liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P93,mahila,
+D0144,woman ko [FSLUR_11] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P72,woman,[FSLUR_11]
+D0200,ladki ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P100,ladki,
+D0272,larki ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P136,larki,
+D0318,girl raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P159,girl,
+D0373,laptop charge rehna chahiye meeting se pehle.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:5,,,
+D0235,woman ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P118,woman,
+D0368,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0214,ladkiyon ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P107,ladkiyon,
+D0414,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0203,"ladkiyon ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P102,ladkiyon,
+D0132,us aurat ko [FSLUR_13] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P66,us aurat,[FSLUR_13]
+D0333,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0357,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0210,ladkiyon ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P105,ladkiyon,
+D0026,kisi us ladki ko [FSLUR_07] mat bolo.,NOT,COUNTER,COUNTER:1,P13,us ladki,[FSLUR_07]
+D0387,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0130,women ko [FSLUR_15] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P65,women,[FSLUR_15]
+D0217,"girl ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P109,girl,
+D0411,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0068,[FSLUR_03] jaise shabd us aurat ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P34,us aurat,[FSLUR_03]
+D0365,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0364,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0381,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0119,woman ko public post me [FSLUR_05] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P60,woman,[FSLUR_05]
+D0256,larki ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P128,larki,
+D0267,larki dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P134,larki,
+D0162,mahila ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P81,mahila,
+D0292,us aurat ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P146,us aurat,
+D0310,ladkiyon raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P155,ladkiyon,
+D0315,us aurat ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P158,us aurat,
+D0140,women ko [FSLUR_20] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P70,women,[FSLUR_20]
+D0167,aurat ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P84,aurat,
+D0136,mahila ko [FSLUR_06] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P68,mahila,[FSLUR_06]
+D0108,aurat ko [FSLUR_07] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P54,aurat,[FSLUR_07]
+D0324,mahila raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P162,mahila,
+D0361,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0287,"women emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P144,women,
+D0288,women ne meeting bahut confidently lead ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:leadership,P144,women,
+D0341,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0242,"us ladki ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P121,us ladki,
+D0407,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0138,mahila ko [FSLUR_04] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P69,mahila,[FSLUR_04]
+D0291,"us aurat emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P146,us aurat,
+D0289,"aurat emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P145,aurat,
+D0020,kisi woman ko [FSLUR_09] mat bolo.,NOT,COUNTER,COUNTER:1,P10,woman,[FSLUR_09]
+D0397,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0050,larki ko [FSLUR_12] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P25,larki,[FSLUR_12]
+D0391,client call postpone ho gaya.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:7,,,
+D0004,aurat ko [FSLUR_11] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P2,aurat,[FSLUR_11]
+D0331,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0410,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0205,"woman ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P103,woman,
+D0003,aurat ko [FSLUR_11] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P2,aurat,[FSLUR_11]
+D0049,comment section me larki ko [FSLUR_12] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P25,larki,[FSLUR_12]
+D0212,women ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P106,women,
+D0196,"woman ne aaj crop top liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P98,woman,
+D0012,ladkiyon ko [FSLUR_15] bolna bilkul galat hai.,NOT,COUNTER,COUNTER:0,P6,ladkiyon,[FSLUR_15]
+D0064,[FSLUR_18] jaise shabd girl ke liye use mat karo.,NOT,COUNTER,COUNTER:3,P32,girl,[FSLUR_18]
+D0189,"ladkiyon ko crop top nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P95,ladkiyon,
+D0297,"women emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P149,women,
+D0128,girl ko [FSLUR_19] kehne walon ko block karo.,NOT,COUNTER,COUNTER:7,P64,girl,[FSLUR_19]
+D0268,larki ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P134,larki,
+D0015,us ladki ko [FSLUR_12] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P8,us ladki,[FSLUR_12]
+D0262,girl ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P131,girl,
+D0227,mahila ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P114,mahila,
+D0170,aurat ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P85,aurat,
+D0025,us ladki ko [FSLUR_07] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P13,us ladki,[FSLUR_07]
+D0174,"us ladki ne aaj shorts liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P87,us ladki,
+D0177,"mahila ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P89,mahila,
+D0101,woman ne shorts pehna to log [FSLUR_15] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P51,woman,[FSLUR_15]
+D0345,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0106,aurat ko [FSLUR_04] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P53,aurat,[FSLUR_04]
+D0093,us aurat ne western kapde pehna to log [FSLUR_10] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P47,us aurat,[FSLUR_10]
+D0220,us ladki ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P110,us ladki,
+D0259,women dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P130,women,
+D0309,ladkiyon ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P155,ladkiyon,
+D0184,"aurat ne aaj dress liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P92,aurat,
+D0077,online sab aurat ko [FSLUR_10] keh rahe hain.,MGY,USE_SLUR,USE_SLUR:4,P39,aurat,[FSLUR_10]
+D0233,women ko zyada padhne ki zaroorat nahi hoti.,MGY,IMPLICIT,IMPLICIT:padhai,P117,women,
+D0105,aurat ne shorts pehna to log [FSLUR_04] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P53,aurat,[FSLUR_04]
+D0240,"women ne entrance exam top kiya, proud moment.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:padhai,P120,women,
+D0097,aurat ne skirt pehna to log [FSLUR_07] bolne lage.,MGY,USE_SLUR,USE_SLUR:5,P49,aurat,[FSLUR_07]
+D0358,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0046,girl ko [FSLUR_19] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P23,girl,[FSLUR_19]
+D0039,comment section me ladki ko [FSLUR_03] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P20,ladki,[FSLUR_03]
+D0255,larki dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P128,larki,
+D0061,girl ko [FSLUR_06] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P31,girl,[FSLUR_06]
+D0275,"us ladki emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P138,us ladki,
+D0352,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0121,us aurat ko public post me [FSLUR_20] likha gaya.,MGY,USE_SLUR,USE_SLUR:6,P61,us aurat,[FSLUR_20]
+D0164,woman ghar aur office dono badhiya sambhal leti hai.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:ghar,P82,woman,
+D0007,ladkiyon ko [FSLUR_12] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P4,ladkiyon,[FSLUR_12]
+D0011,ladkiyon ko [FSLUR_15] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P6,ladkiyon,[FSLUR_15]
+D0201,"ladkiyon ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P101,ladkiyon,
+D0055,larki ko [FSLUR_19] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P28,larki,[FSLUR_19]
+D0043,comment section me aurat ko [FSLUR_05] likh diya.,MGY,USE_SLUR,USE_SLUR:2,P22,aurat,[FSLUR_05]
+D0367,meeting notes share kar dena.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:4,,,
+D0080,report karo agar koi us ladki ko [FSLUR_11] bole.,NOT,COUNTER,COUNTER:4,P40,us ladki,[FSLUR_11]
+D0299,"us ladki emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P150,us ladki,
+D0348,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0173,"us ladki ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P87,us ladki,
+D0044,aurat ko [FSLUR_05] kehna turant band karo.,NOT,COUNTER,COUNTER:2,P22,aurat,[FSLUR_05]
+D0301,women ko raat ko bahar nikalna hi nahi chahiye.,MGY,IMPLICIT,IMPLICIT:bahar,P151,women,
+D0209,"ladkiyon ka kaam office me nahi, kitchen me hai.",MGY,IMPLICIT,IMPLICIT:kaam,P105,ladkiyon,
+D0065,ladkiyon ko [FSLUR_16] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P33,ladkiyon,[FSLUR_16]
+D0067,us aurat ko [FSLUR_03] bol ke tag kar diya.,MGY,USE_SLUR,USE_SLUR:3,P34,us aurat,[FSLUR_03]
+D0013,ladki ko [FSLUR_20] bol diya.,MGY,USE_SLUR,USE_SLUR:0,P7,ladki,[FSLUR_20]
+D0329,kal standup kitne baje hai?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:0,,,
+D0285,"ladkiyon emotional hoti hai, team lead nahi kar sakti.",MGY,IMPLICIT,IMPLICIT:leadership,P143,ladkiyon,
+D0343,weekend plans bana liye kya?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:1,,,
+D0100,us ladki ko [FSLUR_20] bolna kisi bhi haal me sahi nahi.,NOT,COUNTER,COUNTER:5,P50,us ladki,[FSLUR_20]
+D0351,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0266,aurat ne lambi highway drive solo complete ki.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:driving,P133,aurat,
+D0021,woman ko [FSLUR_01] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P11,woman,[FSLUR_01]
+D0033,ladki ko [FSLUR_12] keh ke DM kiya.,MGY,USE_SLUR,USE_SLUR:1,P17,ladki,[FSLUR_12]
+D0403,presentation kal tak ready ho jayegi.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:8,,,
+D0198,ladki ne aaj ka kaam time se pehle finish kiya.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kaam,P99,ladki,
+D0157,woman ka kaam sirf ghar sambhalna hai.,MGY,IMPLICIT,IMPLICIT:ghar,P79,woman,
+D0356,coffee peene chalte ho?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:3,,,
+D0181,"girl ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P91,girl,
+D0253,us aurat dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P127,us aurat,
+D0183,"aurat ko western kapde nahi pehनना chahiye, sanskaar khatam.",MGY,IMPLICIT,IMPLICIT:kapde,P92,aurat,
+D0304,ladki raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P152,ladki,
+D0408,code review kal subah rakho.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:9,,,
+D0385,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0137,group me mahila ko [FSLUR_04] keh ke chhed rahe the.,MGY,USE_SLUR,USE_SLUR:7,P69,mahila,[FSLUR_04]
+D0382,aaj ka match dekhoge?,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:6,,,
+D0251,ladki dhang se gaadi chala hi nahi sakti.,MGY,IMPLICIT,IMPLICIT:driving,P126,ladki,
+D0194,"ladki ne aaj crop top liye, look acha tha.",NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:kapde,P97,ladki,
+D0314,ladkiyon raat ki shift karke safe ghar pahunch gayi.,NOT,BENIGN_OVERLAP,BENIGN_OVERLAP:bahar,P157,ladkiyon,
+D0347,PR me comments resolve kar do.,NOT,BENIGN_NEUTRAL,BENIGN_NEUTRAL:2,,,
+D0114,"please ladki ko [FSLUR_07] mat kaho, ye galat hai.",NOT,COUNTER,COUNTER:6,P57,ladki,[FSLUR_07]
